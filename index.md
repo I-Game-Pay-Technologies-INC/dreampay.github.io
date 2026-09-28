@@ -1,10 +1,10 @@
 ---
+layout: default
 title: DreamPay Payment Gateway
+permalink: /
 ---
 
 # DreamPay Payment Gateway
-
-**[Overview](index.html)** · [Integration Guide](integration.html) · [User Flows](flows.html)
 
 DreamPay is a merchant payment gateway built on a custodial digital-wallet platform. It lets your business **accept payments** from DreamPay app users and **send payouts** to them, settled instantly on an internal ledger.
 

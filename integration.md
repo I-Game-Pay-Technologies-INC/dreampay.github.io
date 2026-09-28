@@ -1,10 +1,9 @@
 ---
+layout: default
 title: Integration Guide
 ---
 
 # Integration Guide
-
-[Overview](index.html) · **[Integration Guide](integration.html)** · [User Flows](flows.html)
 
 This page covers everything needed to build against the DreamPay merchant API: authentication, conventions, the invoice and payout endpoints, webhook delivery and signature verification, and error handling.
 

@@ -1,9 +1,18 @@
 # I-Game-Pay-Technologies-INC.github.io
-theme: jekyll-theme-minimal
-
 title: DreamPay Documentation
 description: One wallet. Endless possibilities.
 
 markdown: kramdown
 kramdown:
   input: GFM
+
+exclude:
+  - README.md
+
+nav:
+  - title: Overview
+    url: /
+  - title: Integration Guide
+    url: /integration.html
+  - title: User Flows
+    url: /flows.html

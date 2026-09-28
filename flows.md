@@ -1,10 +1,9 @@
 ---
+layout: default
 title: User Flows
 ---
 
 # User Flows
-
-[Overview](index.html) · [Integration Guide](integration.html) · **[User Flows](flows.html)**
 
 Sequence diagrams for the flows described in the [Integration Guide](integration.html). "Merchant backend" is your server, calling the DreamPay API with your `x-api-key`. "Payer" is the DreamPay app user completing or rejecting a payment.
 
@@ -101,9 +100,10 @@ sequenceDiagram
     Note over DP,M: After the final attempt with no 200,<br/>the webhook is marked permanently not delivered.<br/>Reconciliation (polling) is the only recovery.
 </div>
 
-## Back
-
-[Integration Guide](integration.html) · [Overview](index.html)
-
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, theme: 'neutral' });</script>
+<script>
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "neutral"
+  });
+</script>
