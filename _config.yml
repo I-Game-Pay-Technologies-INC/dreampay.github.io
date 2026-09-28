@@ -1,6 +1,10 @@
 # dreampay.github.io
 theme: jekyll-theme-minimal
-remote_theme: "jekyll/minima@1e8a445"
+baseurl: "/dreampay.github.io"
 
 title: DreamPay Documentation
 description: One wallet. Endless possibilities.
+
+markdown: kramdown
+kramdown:
+  input: GFM
